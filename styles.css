@@ -150,6 +150,7 @@ header nav li:last-child {
 .knowledge_hub .knowledge_hub-text {
   width: 60%;
   height: 100%;
+  line-height: 30px;
 }
 
 .knowledge_hub-text h3 {
@@ -193,4 +194,46 @@ header nav li:last-child {
 .education img {
   width: 407px;
   height: 338px;
+}
+/* /. Education*/
+
+/* Visitantes*/
+.visitantes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.visitantes h1 {
+  margin-bottom: 20px;
+}
+
+.visitantes h3 {
+  font: normal 28 px "Open Sans", sans-serif;
+  font-weight: 100;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+.visitantes .visitantes-text {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.visitantes a.btn {
+  color: #fff;
+  background-color: black;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+
+.visitantes img {
+  width: 407px;
+  height: 338px;
+}
+/* /. Visitantes*/
+
+/* Asesorias*/
+.asesorias {
+  background-color: #d6d6d6;
 }
