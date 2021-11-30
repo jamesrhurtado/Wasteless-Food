@@ -17,6 +17,10 @@ ul,
 nav {
   list-style: none;
 }
+h1 {
+  font: bold 60 px "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
 
 a {
   text-decoration: none;
@@ -132,4 +136,30 @@ header nav li:last-child {
 
 .hero .appstores {
   margin-top: 30px;
+}
+/* /.Hero section*/
+
+/* Knowledge Hub*/
+
+.knowledge_hub {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.knowledge_hub .knowledge_hub-text {
+  width: 60%;
+  height: 100%;
+}
+
+.knowledge_hub-text h3 {
+  font: normal 28 px "Open Sans", sans-serif;
+  font-weight: 100;
+  margin-bottom: 40px;
+  margin-right: 250px;
+}
+
+.knowledge_hub .knowledge_hub-img img {
+  width: 407px;
+  height: 338px;
 }
