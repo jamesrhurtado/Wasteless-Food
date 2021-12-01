@@ -18,7 +18,7 @@ nav {
   list-style: none;
 }
 h1 {
-  font: bold 60 px "Open Sans", sans-serif;
+  font: bold 50px "Open Sans", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -124,12 +124,12 @@ header nav li:last-child {
 }
 
 .hero h1 {
-  font: bold 60 px "Open Sans", sans-serif;
+  font: bold 50px "Open Sans", sans-serif;
   margin-bottom: 20px;
 }
 
 .hero h3 {
-  font: normal 28 px "Open Sans", sans-serif;
+  font: normal 16px "Open Sans", sans-serif;
   font-weight: 100;
   margin-bottom: 40px;
 }
@@ -154,10 +154,11 @@ header nav li:last-child {
 }
 
 .knowledge_hub-text h3 {
-  font: normal 28 px "Open Sans", sans-serif;
+  font: normal 16px "Open Sans", sans-serif;
   font-weight: 100;
   margin-bottom: 40px;
   margin-right: 250px;
+  line-height: 30px;
 }
 
 .knowledge_hub .knowledge_hub-img img {
@@ -178,7 +179,7 @@ header nav li:last-child {
   text-align: center;
 }
 .education h3 {
-  font: normal 28 px "Open Sans", sans-serif;
+  font: normal 16px "Open Sans", sans-serif;
   font-weight: 100;
   margin-bottom: 40px;
   margin-left: 334px;
@@ -209,7 +210,7 @@ header nav li:last-child {
 }
 
 .visitantes h3 {
-  font: normal 28 px "Open Sans", sans-serif;
+  font: normal 16px "Open Sans", sans-serif;
   font-weight: 100;
   margin-bottom: 40px;
   line-height: 30px;
@@ -243,7 +244,7 @@ header nav li:last-child {
   text-align: center;
 }
 .asesorias h3 {
-  font: normal 28 px "Open Sans", sans-serif;
+  font: normal 16px "Open Sans", sans-serif;
   font-weight: 100;
   margin-bottom: 40px;
   line-height: 30px;
@@ -254,6 +255,9 @@ header nav li:last-child {
   text-align: center;
 }
 
+.asesorias form {
+  width: 30%;
+}
 .asesorias .form-container {
   display: grid;
   width: 100%;
@@ -266,3 +270,49 @@ header nav li:last-child {
   border: 1px solid #bbb0b0;
 }
 /* /.Asesorias*/
+
+/* Planes*/
+.planes .container-planes {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.planes h2 {
+  font: normal 16px "Open Sans", sans-serif;
+  font-weight: 100;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.planes .container-heading {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container-planes .container-business,
+.container-free,
+.container-business_plus {
+  border: 1px solid #bbb0b0;
+  height: 400px;
+}
+
+.planes ul {
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+.planes .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000;
+  margin: 0 auto;
+  padding: 10px 30px;
+  width: 20%;
+}
+
+/* /. Planes*/
+
+/* Footer*/
+
+/* /. Footer*/
