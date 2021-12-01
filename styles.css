@@ -236,4 +236,33 @@ header nav li:last-child {
 /* Asesorias*/
 .asesorias {
   background-color: #d6d6d6;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
+.asesorias h1 {
+  text-align: center;
+}
+.asesorias h3 {
+  font: normal 28 px "Open Sans", sans-serif;
+  font-weight: 100;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+.asesorias .asesorias-text {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+
+.asesorias .form-container {
+  display: grid;
+  width: 100%;
+  grid-gap: 10px;
+}
+
+.asesorias input {
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  border: 1px solid #bbb0b0;
+}
+/* /.Asesorias*/
