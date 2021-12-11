@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Neuton&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neuton&family=Roboto&display=swap");
 /*region General*/
 * {
   margin: 0;
@@ -21,7 +21,7 @@ nav {
 h1 {
   font: normal 50px "Open Sans", sans-serif;
   font-family: "Neuton", serif;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -47,7 +47,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 125px 100px;
+  padding: 90px 12px;
 }
 
 /*Header*/
@@ -103,7 +103,9 @@ header nav li:last-child {
 
 .hero .hero-img {
   position: absolute;
-  background-image: url(images/main.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/main.jpeg);
+  background-size: cover;
   top: 0;
   left: 0;
   width: 100%;
@@ -117,8 +119,6 @@ header nav li:last-child {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #414a4f;
-  opacity: 0.75;
 }
 
 .hero a.btn {
@@ -131,8 +131,8 @@ header nav li:last-child {
 }
 
 .hero h3 {
-  font: normal 16px "Open Sans", sans-serif;
-  font-weight: 100;
+  font: normal 20px "Open Sans", sans-serif;
+  font-family: "Roboto", serif;
   margin-bottom: 40px;
 }
 
@@ -156,7 +156,8 @@ header nav li:last-child {
 }
 
 .knowledge_hub-text h3 {
-  font: normal 16px "Open Sans", sans-serif;
+  font: normal 20px "Open Sans", sans-serif;
+  font-family: "Roboto", serif;
   font-weight: 100;
   margin-bottom: 40px;
   margin-right: 250px;
@@ -180,9 +181,14 @@ header nav li:last-child {
 .education h3 {
   text-align: center;
 }
+
+.education h1 {
+  font-family: "Neuton", serif;
+}
+
 .education h3 {
-  font: normal 16px "Open Sans", sans-serif;
-  font-weight: 100;
+  font: normal 20px "Open Sans", sans-serif;
+  font-family: "Roboto", serif;
   margin-bottom: 40px;
   margin-left: 334px;
   margin-right: 329px;
@@ -195,8 +201,8 @@ header nav li:last-child {
 }
 
 .education img {
-  width: 407px;
-  height: 338px;
+  width: 298px;
+  height: 169px;
 }
 /* /. Education*/
 
@@ -212,7 +218,8 @@ header nav li:last-child {
 }
 
 .visitantes h3 {
-  font: normal 16px "Open Sans", sans-serif;
+  font: normal 20px "Open Sans", sans-serif;
+  font-family: "Roboto", serif;
   font-weight: 100;
   margin-bottom: 40px;
   line-height: 30px;
@@ -246,12 +253,15 @@ header nav li:last-child {
   text-align: center;
 }
 .asesorias h3 {
-  font: normal 16px "Open Sans", sans-serif;
+  font: normal 20px "Open Sans", sans-serif;
+  font-family: "Roboto", serif;
   font-weight: 100;
   margin-bottom: 40px;
   line-height: 30px;
 }
 .asesorias .asesorias-text {
+  margin-top: 40px;
+  margin-bottom: 40px;
   width: 50%;
   height: 100%;
   text-align: center;
