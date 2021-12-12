@@ -285,11 +285,9 @@ header nav li:last-child {
 
 /* Planes*/
 .planes .container-planes {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 80px;
-  margin-left: 80px;
-  margin-right: 80px;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .planes h2 {
@@ -314,14 +312,13 @@ header nav li:last-child {
 .container-free,
 .container-business_plus {
   border: 3px solid #bbb0b0;
-  height: 500px;
 }
 
 .planes ul {
+  padding-left: 1rem;
   margin-bottom: 40px;
   line-height: 30px;
   list-style-type: circle;
-  margin-left: 20px;
 }
 .planes .btn {
   display: flex;
@@ -346,7 +343,7 @@ header nav li:last-child {
 
 .planes .btn-business-plus {
   position: relative;
-  margin-top: 116px;
+  margin-top: 10px;
 }
 
 /* /. Planes*/
@@ -362,8 +359,12 @@ header nav li:last-child {
   color: #252b42;
 }
 
+.footer h3 {
+  font: lighter 19px "Roboto", sans-serif;
+  font-weight: 100;
+}
+
 .footer .footer-text {
-  font: thin 16px "Roboto", sans-serif;
   width: 50%;
   line-height: 30px;
   margin: 20px 20px;
@@ -392,7 +393,7 @@ header nav li:last-child {
 }
 
 .container-end h3 {
-  font: thin 16px "Roboto", sans-serif;
+  font: normal 16px "Roboto", sans-serif;
   margin-left: 50px;
 }
 
