@@ -23,15 +23,24 @@
   <body>
     <!--HEADER-->
     <header class="header" id="header">
-      <h2>
-        <img src="images/logo.jpg" alt="logo" /><a href="#">Wasteless Food</a>
-      </h2>
-      <nav>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#knowledge_hub">Knowledge Hub</a></li>
-        <li><a href="#visitantes">Visitantes</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#asesorias">Asesorias</a></li>
+      <nav class="navbar">
+        <div class="brand-title">
+          <a href="#">Wasteless Food</a>
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#knowledge_hub">Knowledge Hub</a></li>
+            <li><a href="#visitantes">Visitantes</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#asesorias">Asesorias</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <!--/.HEADER-->
@@ -125,7 +134,11 @@
           <input type="email" placeholder="Email" />
           <input type="text" placeholder="Telefono" />
           <input type="text" placeholder="Direccion" />
-          <input type="submit" value="Enviar" class="form_btn" />
+          <input
+            type="submit"
+            value="Enviar"
+            class="btn btn-outline-light text-dark form_btn"
+          />
         </div>
       </form>
     </section>

@@ -33,6 +33,7 @@ a {
 a:hover {
   opacity: 1;
   cursor: pointer;
+  color: rgb(218, 218, 218);
 }
 
 a.btn {
@@ -51,43 +52,61 @@ section {
 }
 
 /*Header*/
-header {
+.navbar {
   position: absolute;
-  top: 0;
-  left: 0;
   z-index: 1;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  padding: 35px 100px 0;
-}
-header h2 {
-  font-family: "Quicksand", sans-serif;
+  padding: 15px 100px 0;
 }
 
-header h2 img {
-  max-width: 80px;
-  padding-right: 5px;
-  vertical-align: middle;
+.brand-title {
+  font-size: 1.5rem;
+  margin: 0.5rem;
 }
 
-header nav {
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
   display: flex;
 }
 
-header nav li {
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  padding: 2rem;
+  display: block;
+}
+
+header .navbar-links {
   margin: 0 15px;
 }
 
-header nav li:first-child {
-  margin-left: 0;
+/* Toggle */
+.navbar .toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
 }
 
-header nav li:last-child {
-  margin-right: 0;
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
 }
+
+/* /.Toggle */
 
 /* /.Header */
 
@@ -398,3 +417,23 @@ header nav li:last-child {
 }
 
 /* /. End section*/
+
+/*Media queries*/
+
+/*Toggle Button*/
+
+@media (max-width: 400px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+/* /. Media queries*/
