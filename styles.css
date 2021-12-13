@@ -456,4 +456,36 @@ section {
   }
 }
 
+@media (max-width: 992px) {
+  .knowledge_hub .knowledge_hub-img img {
+    width: 271px;
+    height: 222px;
+  }
+  .knowledge_hub-text h3 {
+    font: normal 20px "Open Sans", sans-serif;
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    line-height: 30px;
+  }
+  .education h3 {
+    font: normal 20px "Open Sans", sans-serif;
+    font-family: "Roboto", serif;
+    margin-bottom: 40px;
+    margin-left: 134px;
+    margin-right: 129px;
+    line-height: 30px;
+  }
+  .visitantes img {
+    width: 257px;
+    height: 238px;
+  }
+  .asesorias {
+    background-color: #d6d6d6;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
 /* /. Media queries*/
